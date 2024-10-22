@@ -4,7 +4,7 @@
 	 return arr;
  }
 vignesh().then((arr)=>{
-	let evens = arr.map((a)=>{
+	let evens = arr.filter((a)=>{
 		return a%2==0
 	})
 	setTimeout(()=>{
