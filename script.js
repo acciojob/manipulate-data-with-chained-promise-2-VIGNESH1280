@@ -7,7 +7,7 @@ vignesh().then((arr)=>{
 	let evens = arr.map((a)=>{
 		return a%2==0
 	})
-	setTimeout(()={
+	setTimeout(()=>{
 		let el = document.getElementById('output');
 		el.innerHTML=evens.join();
 	}, 1000)
@@ -16,7 +16,7 @@ vignesh().then((arr)=>{
 	let mulEven = evens.map((value)=>{
 		return value*2;
 	})
-	setTimeout(()={
+	setTimeout(()=>{
 		let el = document.getElementById('output');
 		el.innerHTML=mulEven.join();
 	}, 2000)
